@@ -1,0 +1,37 @@
+# Derleme ve İkili Çıktılar
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.tmp
+
+# Günlük Dosyaları
+*.log
+logs/
+
+# Kişisel ve Ortam Dosyaları
+.env
+.env.*
+secrets/
+*.pem
+*.key
+*.p12
+
+# Sistem Dosyaları
+.DS_Store
+Thumbs.db
+__pycache__/
+
+# Yerel Proje Hafızası ve Özel Ajan Kuralları (Local Sovereign Scaffold)
+.agents/
+.claude/
+.cursor/
+.cursorignore
+.github/
+araclar/
+context/
+degerlendirme/
+AGENTS.md
+GEMINI.md
+CLAUDE.md
